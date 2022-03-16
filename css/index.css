@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Content-Bold";
+  src: url("./../fonts/Content-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Content-Regular";
+  src: url("./../fonts/Content-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Shippori";
+  src: url("../fonts/ShipporiAntiqueB1-Regular.ttf");
+}
+
+/* * {
+  font-family: "Content-Bold";
+} */
+
+body {
+  background-color: whitesmoke !important;
+}
+p,
+a,
+.publish-date,
+strong,
+.related-article,
+h4 {
+  font-family: "Content-Regular";
+}
+/* News */
+.carousel-title {
+  font-size: 1.15rem;
+  line-height: 1.9rem;
+  font-family: "Content-Regular";
+}
+.carousel-big-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: "Content-Regular";
+}
+.badge-dc {
+  background-color: yellow;
+  color: #000;
+}
+.badge-dc-red {
+  background-color: rgb(233, 77, 77);
+  color: white;
+}
+/* blog container */
+.blog-container {
+  max-width: 1400px;
+}
+/* end blog */
+
+/* News */
+.news-container {
+  max-width: 1400px;
+}
+.carousel-title {
+  font-size: 1.15rem;
+  line-height: 1.9rem;
+  font-family: "Content-Regular";
+}
+.carousel-big-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: "Content-Regular";
+}
+.badge-dc {
+  background-color: yellow;
+  color: #000;
+}
+.badge-dc-red {
+  background-color: rgb(233, 77, 77);
+  color: white;
+}
+.heading-news {
+  font-family: "Content-Bold";
+  font-size: x-large;
+  margin-bottom: 1.5rem;
+}
+
+/* End News */
+h5 {
+  font-family: "Content-Bold";
+}
+.publish-date,
+strong {
+  font-size: 12px;
+  color: gray;
+  display: inline-block;
+}
+.author-name {
+  color: green;
+}
+
+.text-grey {
+  color: grey;
+  margin-bottom: 15px;
+}
+.dc-tag {
+  background-color: rgb(235, 233, 233);
+  color: grey;
+  padding: 4px 8px;
+  border-radius: 15px;
+  display: inline-block;
+}
+.round-5 {
+  border-radius: 5px;
+}
+.post-date {
+  font-family: "Content-Regular";
+  font-size: 12px;
+  color: gray;
+}
+.related-article {
+  color: #616161;
+  font-size: 14px;
+}
+
+/* Carousel Style */
+
+.b-0 {
+  bottom: 0;
+}
+.bg-shadow {
+  background: rgba(76, 76, 76, 0);
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(179, 171, 171, 0)),
+    color-stop(49%, rgba(48, 48, 48, 0.37)),
+    color-stop(100%, rgba(19, 19, 19, 0.8))
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(179, 171, 171, 0) 0%,
+    rgba(48, 48, 48, 0.71) 49%,
+    rgba(19, 19, 19, 0.8) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+}
+.top-indicator {
+  right: 0;
+  top: 1rem;
+  bottom: inherit;
+  left: inherit;
+  margin-right: 1rem;
+}
+.overflow {
+  position: relative;
+  overflow: hidden;
+}
+.zoom img {
+  transition: all 0.2s linear;
+}
+.zoom:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* .author-info {
+    vertical-align: middle;
+} */
+.author-name {
+  margin: 0px;
+  padding: 0px;
+}
+.author-name,
+.heading-title {
+  line-height: 1.8;
+  font-family: "Content-Bold", "Shippori";
+}
+.content-description {
+  line-height: 2;
+  font-family: "Content-Regular", "Shippori";
+}
+.container {
+  max-width: 1400px;
+}
